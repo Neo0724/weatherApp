@@ -1,9 +1,7 @@
-import React from 'react'
-
 export default function getCityLocation(name, setWeather) {
     let API_ID = "4eb02f42a177fa78779701649274e470"
     let CITY_NAME = name
-    let URL = `http://api.openweathermap.org/data/2.5/weather?appid=${API_ID}&q=${CITY_NAME}&units=metric`
+    let URL = `https://api.openweathermap.org/data/2.5/weather?appid=${API_ID}&q=${CITY_NAME}&units=metric`
 
     fetch(URL)
     .then(res => res.json())

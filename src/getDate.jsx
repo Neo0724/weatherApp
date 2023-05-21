@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function getDate(timezone, setCountryDate) {
     let getDay = ["Sunday", "Saturday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday",]
     const currentDate = new Date()
